@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.box1 {
+    width: 33.3%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.table1 {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #0f05dc;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.thead1 {
+    background-color: #564afc;
+}
+
+.thead1 th {
+    padding: 10px;
+    text-align: center;
+}
+
+.thead1 img {
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 20px;
+    height: auto;
+}
+
+.tdata1 td {
+    padding: 10px;
+    border-top: 1px solid #0f05dc;
+    background-color: #c5c0ff;
+}
