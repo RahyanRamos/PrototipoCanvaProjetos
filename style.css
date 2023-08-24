@@ -1,43 +1,147 @@
-body {
+body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #fff;
 }
 
-.box1 {
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7{
     width: 33.3%;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.table1 {
+.table1,
+.table2,
+.table3,
+.table4,
+.table5,
+.table6,
+.table7{
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid #0f05dc;
     border-radius: 10px;
     overflow: hidden; 
 }
 
-.thead1 {
-    background-color: #564afc;
+.thead1{
+    background-color: #4aacfc;
 }
 
-.thead1 th {
+.thead2{
+    background-color: #ffc4d6;
+}
+
+.thead3{
+    background-color: #959595;
+}
+
+.thead4{
+    background-color: #489b3a;
+}
+
+.thead5{
+    background-color: #9b489a;
+}
+
+.thead6{
+    background-color: #f6b956;
+}
+
+.thead7{
+    background-color: #faff23;
+}
+
+.thead1 th,
+.thead2 th,
+.thead3 th,
+.thead4 th,
+.thead5 th,
+.thead6 th,
+.thead7 th{
     padding: 10px;
     text-align: center;
 }
 
-.thead1 img {
+.thead1 img,
+.thead2 img,
+.thead3 img,
+.thead4 img,
+.thead5 img,
+.thead6 img,
+.thead7 img{
     vertical-align: middle;
     margin-left: 10px;
     width: 20px;
     height: auto;
 }
 
-.tdata1 td {
+.tdata1 td,
+.tdata2 td,
+.tdata3 td,
+.tdata4 td,
+.tdata5 td,
+.tdata6 td,
+.tdata7 td{
     padding: 10px;
-    border-top: 1px solid #0f05dc;
-    background-color: #c5c0ff;
+}
+
+.tdata1 td{
+    border-top: 1px solid #008cff;
+    background-color: #d2ebff;
+}
+
+.tdata2 td{
+    border-top: 1px solid #ffb7c9;
+    background-color: #ffd8fd;
+}
+
+.tdata3 td{
+    border-top: 1px solid #808080;
+    background-color: #d5d5d5;
+}
+
+.tdata4 td{
+    border-top: 1px solid #2a7e1e;
+    background-color: #a2f38c;
+}
+
+.tdata5 td{
+    border-top: 1px solid #791a78;
+    background-color: #ffd1ff;
+}
+
+.tdata6 td{
+    border-top: 1px solid #f3aa47;
+    background-color: #ffe882;
+}
+
+.tdata7 td{
+    border-top: 1px solid #f8ff00;
+    background-color: #ffff8d;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 20px; */
 }
