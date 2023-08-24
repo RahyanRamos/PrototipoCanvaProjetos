@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #fff;
+    margin-top: 20px;
 }
 
 .box1,
@@ -41,15 +42,15 @@ body{
 }
 
 .thead3{
-    background-color: #b4b4b4;
+    background-color: #ff7354;
 }
 
 .thead4{
-    background-color: #71e75c;
+    background-color: #49c539;
 }
 
 .thead5{
-    background-color: #ff56fc;
+    background-color: #8d348793;
 }
 
 .thead6{
@@ -57,11 +58,11 @@ body{
 }
 
 .thead7{
-    background-color: #fcff3f;
+    background-color: #ffff77;
 }
 
 .thead4-eqp{
-    background-color: #76c567;
+    background-color: #4aac3e;
 }
 
 .thead1 th,
@@ -113,18 +114,18 @@ body{
 }
 
 .tdata3 td{
-    border-top: 1px solid #808080;
-    background-color: #e4e4e4;
+    border-top: 1px solid #ff2600;
+    background-color: #ffe1d7;
 }
 
 .tdata4 td{
-    border-top: 1px solid #2a7e1e;
-    background-color: #c5ffb6;
+    border-top: 1px solid #1eff00;
+    background-color: #ccffc5;
 }
 
 .tdata5 td{
-    border-top: 1px solid #791a78;
-    background-color: #ffdcff;
+    border-top: 1px solid #96008c93;
+    background-color: #e2cee193;
 }
 
 .tdata6 td{
@@ -133,8 +134,8 @@ body{
 }
 
 .tdata7 td{
-    border-top: 1px solid #f8ff00;
-    background-color: #ffffc0;
+    border-top: 1px solid #b3b301;
+    background-color: #ffffc3;
 }
 
 .flex-container {
@@ -146,7 +147,7 @@ body{
 .flex-row {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     height: auto;
     /* max-height: 150px; */
 }
