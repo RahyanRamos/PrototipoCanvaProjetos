@@ -12,10 +12,11 @@ body{
 .box5,
 .box6,
 .box7{
-    width: 33.3%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 0;
+    padding: 5px;
 }
 
 .table1,
@@ -25,7 +26,7 @@ body{
 .table5,
 .table6,
 .table7{
-    width: 100%;
+    width: 400px;
     border-collapse: collapse;
     border-radius: 10px;
     overflow: hidden; 
@@ -40,23 +41,27 @@ body{
 }
 
 .thead3{
-    background-color: #959595;
+    background-color: #b4b4b4;
 }
 
 .thead4{
-    background-color: #489b3a;
+    background-color: #71e75c;
 }
 
 .thead5{
-    background-color: #9b489a;
+    background-color: #ff56fc;
 }
 
 .thead6{
-    background-color: #f6b956;
+    background-color: #ffbb4e;
 }
 
 .thead7{
-    background-color: #faff23;
+    background-color: #fcff3f;
+}
+
+.thead4-eqp{
+    background-color: #76c567;
 }
 
 .thead1 th,
@@ -68,6 +73,10 @@ body{
 .thead7 th{
     padding: 10px;
     text-align: center;
+}
+
+.thead4-eqp{
+    text-align: left;
 }
 
 .thead1 img,
@@ -95,7 +104,7 @@ body{
 
 .tdata1 td{
     border-top: 1px solid #008cff;
-    background-color: #d2ebff;
+    background-color: #c8e6ff;
 }
 
 .tdata2 td{
@@ -105,27 +114,27 @@ body{
 
 .tdata3 td{
     border-top: 1px solid #808080;
-    background-color: #d5d5d5;
+    background-color: #e4e4e4;
 }
 
 .tdata4 td{
     border-top: 1px solid #2a7e1e;
-    background-color: #a2f38c;
+    background-color: #c5ffb6;
 }
 
 .tdata5 td{
     border-top: 1px solid #791a78;
-    background-color: #ffd1ff;
+    background-color: #ffdcff;
 }
 
 .tdata6 td{
     border-top: 1px solid #f3aa47;
-    background-color: #ffe882;
+    background-color: #fff7d5;
 }
 
 .tdata7 td{
     border-top: 1px solid #f8ff00;
-    background-color: #ffff8d;
+    background-color: #ffffc0;
 }
 
 .flex-container {
@@ -138,10 +147,14 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    height: auto;
+    /* max-height: 150px; */
 }
 
 .flex-column {
     display: flex;
     flex-direction: column;
-    /* margin-left: 20px; */
+    height: auto;
+    max-height: 100px;
+    min-width: 400px;
 }
