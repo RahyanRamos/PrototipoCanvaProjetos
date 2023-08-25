@@ -18,6 +18,9 @@ body{
     max-width: 400px;
     margin: 0;
     padding: 5px;
+    max-height: 400px;
+    overflow: auto;
+    overflow-x: hidden;
 }
 
 
@@ -30,6 +33,7 @@ body{
 .box7:hover{
     transform: scale(0.98);
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 .table1,
@@ -43,6 +47,7 @@ body{
     border-collapse: collapse;
     border-radius: 10px;
     overflow: hidden; 
+    /* max-height: 200px; */
 }
 
 .thead1{
