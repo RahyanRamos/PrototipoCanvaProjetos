@@ -32,11 +32,6 @@ body{
     border-radius: 20px;
 }
 
-/* .box1:hover{
-    box-shadow: 0px 0px 10px 5px #008cff73;
-} */
-
-
 .table1,
 .table2,
 .table3,
@@ -103,7 +98,8 @@ body{
 .thead4 img,
 .thead5 img,
 .thead6 img,
-.thead7 img{
+.thead7 img,
+.thead4-eqp img{
     vertical-align: middle;
     margin-left: 10px;
     width: 20px;
