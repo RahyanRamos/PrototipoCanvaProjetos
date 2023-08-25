@@ -35,31 +35,31 @@ body{
 }
 
 .box1:hover{
-    box-shadow: 0px 0px 25px rgba(74, 172, 252, 0.5);
+    box-shadow: 0px 0px 25px rgba(74, 172, 252, 1);
 }
 
 .box2:hover{
-    box-shadow: 0px 0px 25px rgba(255, 161, 189, 0.5);
+    box-shadow: 0px 0px 25px rgba(255, 161, 189, 1);
 }
 
 .box3:hover{
-    box-shadow: 0px 0px 25px rgba(255, 115, 84, 0.5);
+    box-shadow: 0px 0px 25px rgba(255, 115, 84, 1);
 }
 
 .box4:hover{
-    box-shadow: 0px 0px 25px rgba(73, 197, 57, 0.5);
+    box-shadow: 0px 0px 25px rgba(73, 197, 57, 1);
 }
 
 .box5:hover{
-    box-shadow: 0px 0px 25px rgba(141, 52, 135, 0.5);
+    box-shadow: 0px 0px 25px rgba(141, 52, 135, 1);
 }
 
 .box6:hover{
-    box-shadow: 0px 0px 25px rgba(255, 187, 78, 0.5);
+    box-shadow: 0px 0px 25px rgba(255, 187, 78, 1);
 }
 
 .box7:hover{
-    box-shadow: 0px 0px 25px rgba(255, 255, 108, 0.5);
+    box-shadow: 0px 0px 25px rgba(255, 255, 108, 1);
 }
 
 .table1,
