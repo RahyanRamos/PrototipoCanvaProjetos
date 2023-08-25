@@ -59,7 +59,7 @@ body{
 }
 
 .box7:hover{
-    box-shadow: 0px 0px 25px rgba(255, 255, 108, 1);
+    box-shadow: 0px 0px 25px rgba(255, 255, 68, 1);
 }
 
 .table1,
@@ -100,7 +100,7 @@ body{
 }
 
 .thead7{
-    background-color: #ffff6c;
+    background-color: #ffff44;
 }
 
 .thead4-eqp{
