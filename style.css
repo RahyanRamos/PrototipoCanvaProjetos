@@ -104,7 +104,9 @@ body{
 }
 
 .thead4-eqp{
-    background-color: #4aac3e;
+    align-items: center;
+    background-color: #b1ffa7;
+    border-bottom: 1px solid #1eff00;
 }
 
 .thead1 th,
@@ -119,7 +121,7 @@ body{
 }
 
 .thead4-eqp{
-    text-align: left;
+    text-align: center;
 }
 
 .thead1 img,
@@ -162,7 +164,7 @@ body{
 }
 
 .tdata4 td{
-    border-top: 1px solid #1eff00;
+    /* border-top: 1px solid #1eff00; */
     background-color: #ccffc5;
 }
 
@@ -201,3 +203,25 @@ body{
     max-height: 100px;
     min-width: 400px;
 }
+/* 
+@media(max-width: 1350px){
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7{
+        max-width: 350px;
+    }
+
+    .table1,
+    .table2,
+    .table3,
+    .table4,
+    .table5,
+    .table6,
+    .table7{
+        width: 350px; 
+    }
+} */
